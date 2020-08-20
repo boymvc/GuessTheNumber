@@ -20,7 +20,6 @@ def askQuestion (lowestInRange, highestInRange):
     print('Your number is', lowestInRange)
     return
   midPoint = findMidPoint(lowestInRange, highestInRange)
-  print(lowestInRange, highestInRange, midPoint)
   answer = input('Is your number > ' + str(midPoint) + '? ')
   answer = checkAnswer(answer)
   if answer == '>':
